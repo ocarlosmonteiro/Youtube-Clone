@@ -143,26 +143,37 @@ main
 }
 iframe
 {
-    width: 80%;
+    width: 90%;
     margin-top: 4%;
+    border-radius: 10px;
 }
 .contents-info-video-principal
 {
     background-color: #817fff;
-    width: 80%;
+    width: 90%;
     height: 20%;
     margin-top: 1%;
+}
+#title-video-principal
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    margin-top: 1%;
+
 }
 .info-videos
 {
     display: flex;
     flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
 }
 .info-channel
 {
     background-color: #b90606;
     width: 30%;
-    height: 80%;
+    height: 75px;
 }
 #subscribe
 {
@@ -198,14 +209,52 @@ iframe
     background-image: url(./assets/images/thumbs-down.png);
     background-repeat: no-repeat;
     background-color: #fcfbfb;
+    background-size: 20px;
+    background-position: center;
     height: 35px;
-    width: 75px;
+    width: 50px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     cursor: pointer;
     border: none;
+    margin-left: -5px;
 }
-
+#share
+{
+    background-image: url(./assets/images/share-2.png);
+    background-repeat: no-repeat;
+    background-color: #fcfbfb;
+    background-size: 20px;
+    background-position: 10px, center;
+    height: 35px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#span-share
+{
+    position: relative;
+    margin-left: 20px;
+}
+#download
+{
+    background-image: url(./assets/images/download.png);
+    background-repeat: no-repeat;
+    background-color: #fcfbfb;
+    background-size: 20px;
+    background-position: 10px, center;
+    height: 35px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#span-download
+{
+    position: relative;
+    margin-left: 20px;
+}
 
 /*-------------Videos relacionados-------------*/
 .contents-related-videos
