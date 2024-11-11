@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube clone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="contents-left">
+                <button class="button-header" id="button-menu"></button>
+                <a href="#"><img src="assets/images/youtube 1.png" alt="Logo do Youtube" title="Página inicial do Youtube"></a>
+            </div>
+            <div class="contents-center">
+                <input type="search" name="search" id="input-search" placeholder="Pesquisar">
+                <input type="button" id="button-search" name="button-search" title="Pesquisar">
+            </div>
+            <div class="contents-right">
+                <button class="button-header" id="button-video" title="Criar"></button>
+                <button class="button-header" id="button-bell" title="Notificações"></button>
+                <button class="button-header" id="button-profile"></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <div class="contents-principal">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ohbeQza28BA?si=by5XP0BQsQmXp_Y9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>                
+            </iframe>
+
+            <div class="contents-info-video-principal">
+                <span>POR QUE A CYNTHIA É TÃO TEMIDA?</span>
+                <div class="info-videos">
+                    <div class="info-channel">
+                        <img src="" alt="Foto do canal" id="picture-channel">
+                        <span>Daniel Kisaragi</span>
+                        <span>580 inscritos</span>
+                    </div>
+                    <button id="subscribe">Increva-se</button>
+                    <button id="like"><span id="span-like">Gostei</span></button>
+                    <button id="dislike">Não gostei</button>
+                    <button id="share">Compartilhar</button>
+                    <button id="download">Download</button>
+                </div>
+            </div>
+
+       </div>
+
+
+       <div class="contents-related-videos">
+
+       </div>
+    </main>
+</body>
+
+</html>
